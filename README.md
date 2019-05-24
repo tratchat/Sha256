@@ -1,3 +1,28 @@
 # Easy Sha256
 
 A simple way to use SHA256 in the browser and NodeJS. Built in pure JS without any 3rd party libraries.
+
+### Installing
+
+Browser
+```
+<script src= >
+```
+
+NodeJS
+```
+npm i easy-sha256
+```
+
+
+### Usage
+
+NodeJS
+```
+var sha256 = require("easy-sha256")
+console.log(sha256.hash("abc")) //Logs "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
+```
+Browser (include the above in your HTML)
+```
+console.log(sha256.hash("abc")) //Logs "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
+```
