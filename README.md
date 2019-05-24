@@ -6,7 +6,7 @@ A simple way to use SHA256 in the browser and NodeJS. Built in pure JS without a
 
 Browser
 ```
-<script src= >
+<script src="https://cdn.trat.chat/sha256.min.js"></script>
 ```
 
 NodeJS
@@ -22,7 +22,19 @@ NodeJS
 var sha256 = require("easy-sha256")
 console.log(sha256.hash("abc")) //Logs "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
 ```
-Browser (include the above in your HTML)
+Browser (include the script tag above in your html)
 ```
 console.log(sha256.hash("abc")) //Logs "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
+```
+
+###Advanced Usage
+
+To use sha256 in async mode
+```
+sha256.hash("abc",{async:true}).then(function(hash){
+  console.log(hash)
+})
+console.log("hi")
+
+//Logs "hi" First Then "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
 ```
