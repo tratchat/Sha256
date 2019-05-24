@@ -38,3 +38,12 @@ console.log("hi")
 
 //Logs "hi" First Then "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
 ```
+
+
+###Author
+
+Ryan Trattner
+
+[My Github](https://github.com/RTISCOOL)
+[Trat Chat](https://tratchat.com)
+ryan@trat.io
