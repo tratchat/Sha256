@@ -1,6 +1,6 @@
 {
   "name": "easy-sha256",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Simple and Easy way to use SHA256 in the browser or in NodeJS",
   "main": "index.js",
   "scripts": {
